@@ -19,7 +19,7 @@ S3_LANDSAT = 'http://landsat-pds.s3.amazonaws.com/'
 API_URL = 'https://api.developmentseed.org/landsat'
 
 # User's Home Directory
-HOME_DIR = expanduser('~')
+HOME_DIR = '/mnt/d/landsat-download'#expanduser('~')
 
 # Utility's base directory
 BASE_DIR = abspath(dirname(__file__))
